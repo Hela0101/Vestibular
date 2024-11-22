@@ -23,12 +23,6 @@
         header img {
             max-height: 50px;
         }
-        header a {
-            text-decoration: none;
-            color: #000;
-            font-size: 1em;
-            font-weight: bold;
-        }
         h1 {
             color: #003399; /* Bleu roi */
             font-size: 2.5em;
@@ -55,12 +49,22 @@
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+        .footer {
+            position: absolute;
+            bottom: 10px;
+            right: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+        .footer a {
+            color: #003399;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
     <header>
         <img src="logo.png" alt="Logo" title="Logo" />
-        <a href="https://g.co/kgs/8dsDuie" target="_blank">المكان</a>
     </header>
 
     <main>
@@ -68,13 +72,17 @@
         <h2>متخصصة في الدوخة و عدم التوازن</h2>
         <h2>متخرجة من كلية الطب بتونس</h2>
         <div class="contact">
-            <p> 00216 25 336 696/00216 71 267 318 الهاتف </p>
+            <p>الهاتف: 00216 25 336 696 / 00216 71 267 318</p>
         </div>
         <div class="gallery">
-            <img src="image4.jpg" alt="Image 4">
             <img src="image2.jpg" alt="Image 2">
             <img src="image3.jpg" alt="Image 3">
+            <img src="image4.jpg" alt="Image 4">
         </div>
     </main>
+
+    <div class="footer">
+        <a href="https://g.co/kgs/8dsDuie" target="_blank">المكان</a>
+    </div>
 </body>
 </html>
